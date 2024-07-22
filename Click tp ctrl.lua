@@ -17,7 +17,7 @@ end
 
 
 UIS.InputBegan:Connect(function(input)
-   if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+   if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then --Replace (Enum.KeyCode.'someting you want')
        Teleport(Mouse.Hit.p)
    end
 end)
