@@ -1,7 +1,7 @@
 local Player = game.Players.LocalPlayer
 local Mouse = Player:GetMouse()
 local CurrentCamera = game.Workspace.CurrentCamera
-local Trigger = 113
+local Trigger = 113 --If you want to change the keybind. (Example you want to change the keybind to 'e' search up ASCII which is '101', replace the '113' with '101')
 local Enabled = false
 local EspBoxes = {}
 
